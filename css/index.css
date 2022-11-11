@@ -225,6 +225,11 @@ strong {
   color: var(--primary-color);
   font-size: 24px;
   font-weight: var(--font-weight-bold);
+  width: 10%;
+}
+
+.navbar-brand.o {
+  width: 7%;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -715,8 +720,11 @@ strong {
   .news-detail-title {
     font-size: 36px;
   }
-  .img-logo .o {
-    width: 10%;
+  .navbar-brand {
+    width: 15%;
+  }
+  .navbar-brand.o {
+    width: 11% !important;
   }
 }
 
